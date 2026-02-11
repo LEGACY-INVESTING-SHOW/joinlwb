@@ -48,17 +48,14 @@ main {
 
 .form-container,
 .schedule-container {
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-    padding: 0;
     width: 100%;
-    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.schedule-container {
-    display: flex;
-    justify-content: center;
+.schedule-container > div {
+    width: 100% !important;
+    min-height: 600px;
 }
 
 footer {
