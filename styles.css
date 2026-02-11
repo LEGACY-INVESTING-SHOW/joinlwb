@@ -68,6 +68,23 @@ footer {
     font-size: 0.9rem;
 }
 
+.footer-links {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+.footer-links a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #1a1a1a;
+    text-decoration: underline;
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 20px 15px;
